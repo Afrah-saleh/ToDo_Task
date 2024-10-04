@@ -22,32 +22,48 @@ export const appStyles = StyleSheet.create({
     flex: 1,
   },
   numberOfItems: {
-    fontSize: 30,
+    fontSize: 20,
     fontWeight: "500",
     marginRight: 20,
+  },
+  inputContainer: {
+    flexDirection: 'row',   // Align input and button side by side
+    alignItems: 'center',   // Center vertically
+    marginBottom: 5,       // Spacing from the list
+    width: "100%",          // Take the full width of the container (90% removed)
+    padding: 10,
   },
   input: {
     backgroundColor: "lightgray",
     padding: 10,
     fontSize: 17,
-    width: "90%",
-    alignSelf: "center",
-    borderRadius: 10,
-    marginTop: "auto",
-  }
+    flex: 1,                // Input takes remaining space
+    borderRadius: 10,       // Rounded corners for input
+  },
+  addButton: {
+    backgroundColor: 'green', // Green background for the button
+    padding: 10,              // Equal padding to the input for visual consistency
+    borderRadius: 10,         // Rounded corners for button
+    justifyContent: 'center', // Center the icon vertically
+    alignItems: 'center',     // Center the icon horizontally
+    marginLeft: 0,            // Ensure no gap between input and button
+  },
 });
 
 export const itemStyles = StyleSheet.create({
   container: {
     flexDirection: "row",
-    backgroundColor: "lightgray",
+    //backgroundColor: "lightgray",
     justifyContent: "space-between",
-    padding: 10,
+    padding: 20,
     alignItems: "center",
     width: "90%",
     alignSelf: "center",
     borderRadius: 10,
     marginVertical: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: "lightgray",
+    
   },
   title: {
     flex: 1,
