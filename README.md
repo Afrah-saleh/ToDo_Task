@@ -1,36 +1,31 @@
-
 # ToDo App
 
-A simple ToDo application built with React Native and Firebase Firestore.
+A simple and intuitive ToDo application built using **React Native** and **Firebase Firestore**. This app allows users to manage their daily tasks by adding, updating, and deleting tasks seamlessly.
 
 ## Features
 
 - **Add ToDo Items**: Easily add new tasks to your list.
 - **Update Status**: Mark tasks as done or not done.
-- **Delete Items**: Remove individual tasks.
+- **Delete Items**: Remove individual tasks from the list.
 
-## Prerequisites
+## Table of Contents
 
-Make sure you have the following installed:
+- [Features](#features)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Node.js
-React Native CLI: To create and run the React Native project.
-Install globally: npm install -g react-native-cli
-Firebase Account: To set up the Firebase Firestore database.
-Android Studio / Xcode: Required for running the app on an emulator or physical device.
+## Installation
 
-## Setup Instructions
-Step 1: Clone the Repository:
-    git clone https://github.com/Afrah-saleh/todo-app.git
-    cd todo-app
-Step 2: Install Dependencies
-  Using npm:
-    npm install
-Step 3: Set Up Firebase
-  Go to the Firebase Console.
-  Create a new project.
-  Add a new web app to your project.
-  Copy the Firebase configuration.
+Follow these steps to set up the project on your local machine.
 
+### Prerequisites
 
+Before you begin, make sure you have the following installed:
 
+- **Node.js**: [Download & Install Node.js](https://nodejs.org/)
+- **npm** (Node Package Manager) or **yarn**: Comes with Node.js or you can install Yarn globally with:
+  ```bash
+  npm install --global yarn
