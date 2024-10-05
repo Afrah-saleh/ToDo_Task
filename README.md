@@ -11,6 +11,7 @@ A simple and intuitive ToDo application built using **React Native** and **Fireb
 ## Table of Contents
 
 - [Features](#features)
+-  [Screenshots](#Screenshots)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
