@@ -2,10 +2,8 @@
 import React, { useEffect, useState } from "react";
 import { View, Text, Pressable } from "react-native";
 import AntDesign from '@expo/vector-icons/AntDesign';
-import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import { updateIsDone, deleteToDoItem } from "../firebase/firebaseService"; // Import functions
-import { itemStyles } from '../styles'; // Import styles
-
+import { itemStyles } from "../style/style";
 const ToDoListItems = (props) => {
   const [isDone, setIsDone] = useState(props.isDone);
 

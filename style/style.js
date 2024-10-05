@@ -1,4 +1,4 @@
-// styles.js
+// style.js
 import { StyleSheet } from 'react-native';
 
 export const appStyles = StyleSheet.create({
@@ -27,26 +27,27 @@ export const appStyles = StyleSheet.create({
     marginRight: 20,
   },
   inputContainer: {
-    flexDirection: 'row',   // Align input and button side by side
-    alignItems: 'center',   // Center vertically
-    marginBottom: 5,       // Spacing from the list
-    width: "100%",          // Take the full width of the container (90% removed)
-    padding: 10,
+    flexDirection: 'row',   
+    alignItems: 'center',   
+    marginBottom: 5,       
+    width: "100%",          
+    padding: 20,
+    justifyContent: "space-between",
   },
   input: {
     backgroundColor: "lightgray",
     padding: 10,
     fontSize: 17,
-    flex: 1,                // Input takes remaining space
-    borderRadius: 10,       // Rounded corners for input
+    flex: 1,                
+    borderRadius: 10,       
   },
   addButton: {
-    backgroundColor: 'green', // Green background for the button
-    padding: 10,              // Equal padding to the input for visual consistency
-    borderRadius: 10,         // Rounded corners for button
-    justifyContent: 'center', // Center the icon vertically
-    alignItems: 'center',     // Center the icon horizontally
-    marginLeft: 0,            // Ensure no gap between input and button
+    backgroundColor: 'green', 
+    padding: 7,              
+    borderRadius: 50,         
+    justifyContent: 'center', 
+    alignItems: 'center',     
+    marginLeft: 5,            
   },
 });
 

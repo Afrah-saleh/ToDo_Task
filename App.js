@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { SafeAreaView, Text, View, Pressable, TextInput, FlatList, ActivityIndicator } from 'react-native';
 import ToDoListItems from './components/ToDoListItems';
 import { addToDoItem, getToDoList } from './firebase/firebaseService'; // Import Firestore functions
-import { appStyles } from './styles'; // Import styles
+import { appStyles } from './style/style';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
 export default function App() {
