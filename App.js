@@ -74,7 +74,6 @@ export default function App() {
               getToDoList={fetchToDoList} // Refresh list after updates
             />
           )}
-         // keyExtractor={(item) => item.id}
         />
       )}
 
