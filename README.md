@@ -15,6 +15,15 @@ A simple and intuitive ToDo application built using **React Native** and **Fireb
 - [Configuration](#configuration)
 - [Usage](#usage)
 
+## Screenshots
+
+### App Screenshots
+![Home Screen](assets/Home.png)
+
+### Firebase
+![Firebase Firestore](assets/firestore.png)
+
+
 ## Installation
 
 Follow these steps to set up the project on your local machine.
