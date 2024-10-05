@@ -18,10 +18,10 @@ A simple and intuitive ToDo application built using **React Native** and **Fireb
 ## Screenshots
 
 ### App Screenshots
-![Home Screen](assets/Home.png)
+<img src="assets/Home.png" alt="Home Screen" width="300" height="400"/>
 
 ### Firebase
-![Firebase Firestore](assets/firestore.png)
+<img src="assets/firestore.png" alt="Firebase Firestore" width="300" height="400"/>
 
 
 ## Installation
