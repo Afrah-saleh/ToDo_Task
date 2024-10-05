@@ -25,7 +25,8 @@ Follow these steps to set up the project on your local machine.
 
 Before you begin, make sure you have the following installed:
 
-- **Node.js**: [Download & Install Node.js](https://nodejs.org/)
-- **npm** (Node Package Manager) or **yarn**: Comes with Node.js or you can install Yarn globally with:
-  ```bash
-  npm install --global yarn
+- **Node.js**
+- **npm** 
+- **Expo CLI**
+- **Firebase account**
+
